@@ -252,7 +252,7 @@ h4,
 h5,
 h6 {
 	color: #222;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Arial', sans-serif;
 	font-weight: 500;
 	line-height: 1.2;
 	margin: 0 0 16px;
@@ -312,7 +312,7 @@ textarea {
 	background-color: #fff;
 	border: 1px solid #ddd;
 	color: #222;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Arial', sans-serif;
 	font-size: 14px;
 	font-weight: 300;
 	padding: 16px;
@@ -333,13 +333,13 @@ input[type="radio"] {
 
 ::-moz-placeholder {
 	color: #222;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Arial', sans-serif;
 	opacity: 1;
 }
 
 ::-webkit-input-placeholder {
 	color: #222;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Arial', sans-serif;
 }
 
 button,
@@ -352,7 +352,7 @@ input[type="submit"],
 	border: none;
 	color: #fff;
 	cursor: pointer;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Arial', sans-serif;
 	padding: 16px 24px;
 	text-transform: uppercase;
 	width: auto;
@@ -473,6 +473,9 @@ Structure and Layout
 	width: 672px;
     margin-top: 20px;
     margin-left: 64px;
+    border: 2px solid rgba(223, 231, 255, 0.79);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
 }
 
 .magazine-landing .content {
@@ -499,10 +502,15 @@ Structure and Layout
 /* Primary Sidebar */
 
 .sidebar-primary {
+    padding: 20px;
 	float: right;
 	width: 345px;
     margin-right: 48px;
     margin-top: 20px;
+    background-color: rgba(215, 255, 191, 0.07);
+    border: 2px solid rgba(223, 231, 255, 0.79);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
 }
 
 .sidebar-content .sidebar-primary,
@@ -783,7 +791,7 @@ img.alignright,
 
 .magazine-home .content .widget-title,
 .sidebar .widget-title {
-	background-color: #CBCBCB;
+	/*background-color: #CBCBCB;*/
 	color: #222;
 	padding: 10px;
 }
@@ -1084,7 +1092,7 @@ Site Header
 }
 
 .site-title {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Arial', sans-serif;
 	font-size: 48px;
 	line-height: 1;
 	margin-bottom: 0;
@@ -1125,13 +1133,14 @@ Site Header
 }
 
 .header-image .site-title a {
-	background-position: center !important;
+	/*background-position: center !important;*/
 	background-size: contain !important;
 	float: left;
 	display: block;
 	min-height: 90px;
 	text-indent: -9999px;
 	width: 100%;
+    margin-left: 60px;
 }
 
 /* Widget Area
@@ -1273,6 +1282,7 @@ Site Navigation
 	position: fixed;
 	width: 100%;
 	z-index: 999;
+    height: 50px;
 }
 
 .nav-primary a {
@@ -1606,7 +1616,7 @@ Site Footer
 
 .site-footer {
 	background-color: #222;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Arial', sans-serif;
 	font-size: 14px;
 	text-align: center;
 }
@@ -1947,3 +1957,4 @@ Media Queries
 	}
 
 }
+
