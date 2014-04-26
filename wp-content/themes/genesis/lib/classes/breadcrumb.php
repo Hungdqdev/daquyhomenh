@@ -41,7 +41,7 @@ class Genesis_Breadcrumb {
 
 		//* Default arguments
 		$this->args = array(
-			'home'                    => __( 'Home', 'genesis' ),
+			'home'                    => __( 'Trang chủ', 'genesis' ),
 			'sep'                     => ' / ',
 			'list_sep'                => ', ',
 			'prefix'                  => sprintf( '<div %s>', genesis_attr( 'breadcrumb' ) ),
@@ -51,7 +51,7 @@ class Genesis_Breadcrumb {
 			'labels' => array(
 				'prefix'    => __( '', 'genesis' ),
 				'author'    => __( 'Archives for ', 'genesis' ),
-				'category'  => __( 'Archives for ', 'genesis' ),
+				'category'  => __( '', 'genesis' ),
 				'tag'       => __( 'Archives for ', 'genesis' ),
 				'date'      => __( 'Archives for ', 'genesis' ),
 				'search'    => __( 'Search for ', 'genesis' ),

@@ -244,9 +244,9 @@ function genesis_post_comments_shortcode( $atts ) {
 		'after'       => '',
 		'before'      => '',
 		'hide_if_off' => 'enabled',
-		'more'        => __( '% Comments', 'genesis' ),
-		'one'         => __( '1 Comment', 'genesis' ),
-		'zero'        => __( 'Leave a Comment', 'genesis' ),
+		'more'        => __( '% Bình luận', 'genesis' ),
+		'one'         => __( '1 Bình luận', 'genesis' ),
+		'zero'        => __( 'Bình luận bài viết này', 'genesis' ),
 	);
 	$atts = shortcode_atts( $defaults, $atts, 'post_comments' );
 
@@ -420,7 +420,7 @@ function genesis_post_edit_shortcode( $atts ) {
 	$defaults = array(
 		'after'  => '',
 		'before' => '',
-		'link'   => __( '(Edit)', 'genesis' ),
+		'link'   => __( '', 'genesis' ),
 	);
 
 	$atts = shortcode_atts( $defaults, $atts, 'post_edit' );

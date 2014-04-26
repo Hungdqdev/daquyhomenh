@@ -155,7 +155,7 @@ Defaults
 --------------------------------------------- */
 
 body {
-	background-color: #fff;
+	background-color: #EDEDED;
 	color: #222;
 	/*font-family: 'Roboto', sans-serif;*/
     font-family: arial, sans-serif;
@@ -427,7 +427,7 @@ Structure and Layout
 
 .site-inner {
 	clear: both;
-	padding-top: 40px;
+	/*padding-top: 40px;*/
 }
 
 .magazine-home .site-inner {
@@ -467,8 +467,12 @@ Structure and Layout
 /* Content */
 
 .content {
-	float: right;
-	width: 750px;
+	/*float: right;*/
+    background-color: #fff;
+    padding: 20px;
+	width: 672px;
+    margin-top: 20px;
+    margin-left: 64px;
 }
 
 .magazine-landing .content {
@@ -497,6 +501,8 @@ Structure and Layout
 .sidebar-primary {
 	float: right;
 	width: 345px;
+    margin-right: 48px;
+    margin-top: 20px;
 }
 
 .sidebar-content .sidebar-primary,
@@ -760,7 +766,7 @@ img.alignright,
 
 .entry-title a,
 .sidebar .widget-title a {
-	color: #222;
+	color: #ae2525;
 	font-weight: 500;
 }
 
@@ -1051,13 +1057,16 @@ img#wpstats {
 /*
 Site Header
 ---------------------------------------------------------------------------------------------------- */
+.site-header{
+    background-color: #fff;
+    border-bottom: 2px solid #dddddd;
+}
 
 .primary-nav .site-header {
 	padding-top: 64px;
 }
 
 .site-header .wrap {
-	border-bottom: 2px solid #222;
 	padding: 30px 0;
 }
 
