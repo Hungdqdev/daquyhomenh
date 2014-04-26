@@ -49,7 +49,7 @@ class Genesis_Breadcrumb {
 			'heirarchial_attachments' => true,
 			'heirarchial_categories'  => true,
 			'labels' => array(
-				'prefix'    => __( 'You are here: ', 'genesis' ),
+				'prefix'    => __( '', 'genesis' ),
 				'author'    => __( 'Archives for ', 'genesis' ),
 				'category'  => __( 'Archives for ', 'genesis' ),
 				'tag'       => __( 'Archives for ', 'genesis' ),
