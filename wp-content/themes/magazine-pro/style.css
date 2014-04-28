@@ -259,6 +259,7 @@ h6 {
 }
 
 h1 {
+    color: #AE2525;
 	font-size: 36px;
 }
 
@@ -1958,3 +1959,25 @@ Media Queries
 
 }
 
+/*EDIT BY HUNGDQ*/
+.newsletter-form{
+    background-color: #B7C9ED;
+    padding: 8px;
+}
+
+.newsletter-input{
+    margin-bottom: 10px;
+}
+
+.newsletter-submit{
+    width: 100% !important;
+}
+
+.widget-wrap ul li a{
+    color: #AE2525;
+}
+
+.widget-title{
+    text-align: center;
+    font-weight: bold;
+}

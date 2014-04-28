@@ -31,16 +31,16 @@ function genesis_reset_loops() {
 	add_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
 	add_action( 'genesis_entry_header', 'genesis_do_post_title' );
 	add_action( 'genesis_entry_header', 'genesis_post_info', 12 );
-	
+
 	add_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
 	add_action( 'genesis_entry_content', 'genesis_do_post_content' );
 	add_action( 'genesis_entry_content', 'genesis_do_post_content_nav', 12 );
 	add_action( 'genesis_entry_content', 'genesis_do_post_permalink', 14 );
-	
+
 	add_action( 'genesis_entry_footer', 'genesis_entry_footer_markup_open', 5 );
 	add_action( 'genesis_entry_footer', 'genesis_entry_footer_markup_close', 15 );
 	add_action( 'genesis_entry_footer', 'genesis_post_meta' );
-	
+
 	add_action( 'genesis_after_entry', 'genesis_do_author_box_single', 8 );
 	add_action( 'genesis_after_entry', 'genesis_get_comments_template' );
 

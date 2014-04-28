@@ -143,12 +143,12 @@ class Genesis_Featured_Post extends WP_Widget {
 				echo genesis_html5() ? '<header class="entry-header">' : '';
 
 				if ( ! empty( $instance['show_title'] ) ) {
-					
+
 					if ( genesis_html5() )
 						printf( '<h2 class="entry-title"><a href="%s" title="%s">%s</a></h2>', get_permalink(), the_title_attribute( 'echo=0' ), get_the_title() );
 					else
 						printf( '<h2><a href="%s" title="%s">%s</a></h2>', get_permalink(), the_title_attribute( 'echo=0' ), get_the_title() );
-				
+
 				}
 
 				if ( ! empty( $instance['show_byline'] ) && ! empty( $instance['post_info'] ) )
